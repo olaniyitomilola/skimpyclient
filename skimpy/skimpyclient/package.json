@@ -1,0 +1,21 @@
+{
+  "name": "skimpyclient",
+  "version": "1.0.0",
+  "description": "Client interface for skimpy",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "ecommerce"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
