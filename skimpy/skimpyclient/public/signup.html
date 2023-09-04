@@ -16,17 +16,21 @@
             <h1>Register a new account</h1>
             <input type="text" name="firstName" id="firstName" placeholder="First Name">
             <input type="text" name="lastName" id="lastName" placeholder="Last Name">
-            <input type="email" placeholder="Email">
+            <input type="email" id="email" name="email" placeholder="Email">
             <input type="text" name="address" id="address" placeholder="Address">
-            <input type="phone" name="phone" id="phone" placeholder="Phone">
+            <input type="phone" name="phone" id="phone" placeholder="Phone (10 Digits)">
+            <input id="password" type="password" placeholder="********">
+            <input id="conpassword" type="password" placeholder="Confirm Password">
+            <div class="notification hide"></div>
 
-
-            <input type="password" placeholder="********">
-            <input type="button" value="Register">
+            <input id="regBtn" type="button" value="Register">
             <div class="newUser"> Already have an account? <a href="./index.html">Log in</a></div>
+
         </form>
        
     </section>
-    <script src="./script.js"></script>
+    <script type="module" src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
 </body>
 </html>
